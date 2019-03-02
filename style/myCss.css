@@ -1,0 +1,67 @@
+/* Changing default html elements values */
+
+img{
+	width: auto;
+	height: 200px;
+	max-width: 200px;
+}
+
+body{
+	background: #7889a3;
+}
+
+
+/*styling character boxes */
+
+.character{
+	background: #4d5868;
+	border-style: solid;
+	border-color: #39414c;
+	border-width: 3px;
+	width: 80%;
+	margin-left: 15%;
+	margin-bottom: 2%;
+	padding: 20px;
+	box-sizing: border-box;
+	font-family: "Courier New", Courier, monospace;
+}
+
+
+/*styling character elements */
+
+.character img{
+	float: left;
+	margin-right: 20px;
+}
+.character .topicTittle{
+	font-weight: bold;
+	font-size: 115%;
+}
+
+.character header{
+	background: #434d5b;
+	margin-left: 20px;
+	padding: 5px;
+}
+
+.character article{
+	margin-top: 5%;
+	font-size: 16px;
+}
+
+
+/* Float correction */
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
