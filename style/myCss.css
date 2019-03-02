@@ -15,9 +15,8 @@ body{
 
 .character{
 	background: #4d5868;
-	border-style: solid;
-	border-color: #39414c;
-	border-width: 3px;
+	border: 3px solid #39414c;
+	border-radius: 10px;
 	width: 80%;
 	margin-left: 15%;
 	margin-bottom: 2%;
