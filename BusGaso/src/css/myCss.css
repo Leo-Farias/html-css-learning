@@ -1,0 +1,96 @@
+html{
+	font-size: 12px;
+}
+/* NAVBAR STYLING */
+header{
+	background-color: #101b2d;
+}
+.container{
+	max-width: 940px;
+	margin: 0 auto;
+}
+.navbar{
+	font-size: 120%;
+	box-sizing: border-box;
+}
+ 
+.siteButton .createUser{
+	width: 100px;
+}
+
+.siteButton .login{
+	width: 80px;
+}
+
+.siteButton{
+	margin: 25px 20px 0px 0px;
+	background-color: #ed7c36;
+	color: #FFF;
+	font-weight: bold;
+	float: right;
+	padding: 10px;
+	border: none;
+}
+
+.navLinks {
+	float: right;
+	margin-right: 10%;
+}
+
+.navLinks ul{
+	margin: 0;
+	padding: 0;
+}
+
+.navLinks li{
+	list-style: none;
+	float: left;
+	margin-top: 15px;
+	margin-right: 20px;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+.navbar a{
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	
+}
+.navbar a:hover{
+	color: #ea6800;
+	border-bottom: solid 1px #ed7c36;
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+
+.logo img{
+	max-width: 150px;
+	max-height: 100px;
+}
+
+
+/* MAIN AREA STYLING */
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #1c3151;
+	height: 85%;
+}
+
+
+/* FIXING FLOAT */
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
